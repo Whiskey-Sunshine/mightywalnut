@@ -1,0 +1,50 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:yogurt-walnut",
+        "value": [ "liquid", "yogurtwalnut" ],
+        "side": "Server",
+        "file": "game:blocktypes/clay/fired/pot.json",
+        "dependsOn": [{"modid": "expandedfoods"}]
+    },
+    {
+        "op": "addmerge",
+        "path": "/textures/yogurtwalnut",
+        "value": { "base": "item/liquid/yogurt/walnut" },
+        "side": "Server",
+        "file": "game:blocktypes/clay/fired/pot.json",
+        "dependsOn": [{"modid": "expandedfoods"}]
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:treesyrupportion-walnut",
+        "value": [ "topping", "walnutsyrup" ],
+        "side": "Server",
+        "file": "game:blocktypes/clay/fired/pot.json",
+        "dependsOn": [{"modid": "expandedfoods"}]
+    },
+    {
+        "op": "addmerge",
+        "path": "/textures/walnutsyrup",
+        "value": { "base": "mightywalnut:block/liquid/walnutsyrup" },
+        "side": "Server",
+        "file": "game:blocktypes/clay/fired/pot.json",
+        "dependsOn": [{"modid": "expandedfoods"}]
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-walnut",
+        "value": [ "topping", "gelatinwalnut" ],
+        "side": "Server",
+        "file": "game:blocktypes/clay/fired/pot.json",
+        "dependsOn": [{"modid": "expandedfoods"}]
+    },
+    {
+        "op": "addmerge",
+        "path": "/textures/gelatinwalnut",
+        "value": { "base": "item/gelatin/walnut" },
+        "side": "Server",
+        "file": "game:blocktypes/clay/fired/pot.json",
+        "dependsOn": [{"modid": "expandedfoods"}]
+    }
+]

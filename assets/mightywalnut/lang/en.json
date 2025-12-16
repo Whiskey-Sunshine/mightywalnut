@@ -1,0 +1,51 @@
+{
+    "mightywalnut:item-walnut-whole": "Ripe walnuts",
+    "mightywalnut:item-walnut-shelled": "Shelled walnuts",
+    "expandedfoods:item-walnutsapportion": "Walnut sap portion",
+    "expandedfoods:incontainer-item-walnutsapportion": "Walnut sap",
+    "expandedfoods:item-treesyrupportion-walnut": "Walnut syrup portion",
+    "expandedfoods:incontainer-item-treesyrupportion-walnut": "Walnut syrup",
+    "expandedfoods:item-gelatin-walnut": "Walnut gelatin",
+
+    "expandedfoods:itemdesc-gelatin-walnut": "It's slightly savory, and VERY nutty...",
+    "game:recipeingredient-item-gelatin-walnut": "walnut gelatin",
+
+    "game:recipeingredient-item-treesyrupportion-walnut": "walnut syrup",
+    "game:recipeingredient-item-treesyrupportion-walnut-insturmentalcase": "walnut syrup",
+    "recipeingredient-item-treesyrupportion-walnut": "walnut syrup",
+    "recipeingredient-item-treesyrupportion-walnut-insturmentalcase": "walnut syrup",
+    "game:meal-ingredient-stew-primary-treesyrupportion-walnut": "walnut syrup",
+    "game:meal-ingredient-stew-secondary-treesyrupportion-walnut": "walnut syrup",
+
+    "game:recipeingredient-item-walnut-shelled": "walnut",
+    "game:recipeingredient-item-walnut-shelled-insturmentalcase": "walnut",
+    "recipeingredient-item-walnut-shelled": "walnut",
+    "recipeingredient-item-walnut-shelled-insturmentalcase": "walnut",
+    "game:meal-ingredient-stew-primary-walnut-shelled": "Walnut",
+    "game:meal-ingredient-stew-secondary-walnut-shelled": "Walnut",
+
+    "expandedfoods:item-yogurt-walnut": "Walnut yogurt portion",
+    "expandedfoods:incontainer-item-yogurt-walnut": "Walnut yogurt",
+    "game:incontainer-item-yogurt-walnut": "Walnut yogurt",
+    "game:recipeingredient-item-yogurt-walnut": "walnut yogurt",
+    "expandedfoods:recipeingredient-item-yogurt-walnut-insturmentalcase": "walnut yogurt",
+    "expandedfoods:itemdesc-yogurt-walnut": "Sweet, nutty, and creamy!",
+
+    "pie-single-mightywalnut:walnut-shelled-raw": "Walnut pie (raw)",
+    "pie-single-mightywalnut:walnut-shelled-partbaked": "Walnut pie (part-baked)",
+    "pie-single-mightywalnut:walnut-shelled-perfect": "Walnut pie",
+    "pie-single-mightywalnut:walnut-shelled-raw-perfect": "Walnut pie",
+    "pie-single-mightywalnut:walnut-shelled-charred": "Walnut pie (charred)",
+    "pie-single-expandedfoods:gelatin-walnut-raw": "Walnut jelly pie (raw)",
+    "pie-single-expandedfoods:gelatin-walnut-partbaked": "Walnut jelly pie (part-baked)",
+    "pie-single-expandedfoods:gelatin-walnut-perfect": "Walnut jelly pie",
+    "pie-single-expandedfoods:gelatin-walnut-raw-perfect": "Walnut jelly pie",
+    "pie-single-expandedfoods:gelatin-walnut-charred": "Walnut jelly pie (charred)",
+
+    "expandedfoods:itemdesc-walnutsapportion": "Boil into syrup or drink it on its own! It's a little bitter though...",
+    "expandedfoods:itemdesc-treesyrupportion-walnut": "Thick, sweet, and extra nutty, good on treats or as batter! ",
+    "expandedfoods:itemdesc-walnut-whole": "Crack it open to reveal the tasty treasure inside.",
+
+    "expandedfoods:item-handbooktitle-walnutsapportion": "Tapping walnut trees",
+    "expandedfoods:item-handbooktext-walnutsapportion": "Walnut tree sap flows freely during the autumn months, in October, November, and December. Jam a <a href=\"handbook://block-aculinaryartillery:spile-copper-north\">spile</a> into the trunk and place a bucket, barrel, cauldron, or other liquid container directly below to collect it, then boil it down into a sweet and nutty treat!"
+}

@@ -1,0 +1,22 @@
+[
+    {
+    "op": "addmerge",
+    "path": "/attributes/sapPropertiesByType",
+    "value": {
+        "log-grown-walnut-ud": {
+            "sap": "expandedfoods:walnutsapportion",
+            "dripCount": 1,
+            "dripChance": 1,
+            "dripTime": 1,
+            "seasons": [
+              10,
+              11,
+              12
+            ]
+        }
+    },
+    "side": "server",
+    "file": "game:blocktypes/wood/woodtyped/log.json",
+    "dependsOn": [{"modid": "expandedfoods"}]
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "op": "addeach",
+        "path": "/0/ingredients/2/inputs/0/allowedVariants/-",
+        "value": ["walnut"],
+        "file": "expandedfoods:recipes/kneading/fruitbar.json",
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addeach",
+        "path": "/1/ingredients/2/inputs/0/allowedVariants/-",
+        "value": ["walnut"],
+        "file": "expandedfoods:recipes/kneading/fruitbar.json",
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "walnutF": { "base": "game:item/gelatin/walnut" }
+        },
+        "file": "expandedfoods:itemtypes/food/mixing/fruitbar.json",
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/food/mixing/fruitbar.json",
+        "path": "/attributes/renderIngredients/mightywalnut:walnut-shelled",
+        "value": {
+            "shape": "expandedfoods:shapes/item/food/fruitbar/base.json", "name": "base", "textureMap": { "base": "acorn" }
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:recipes/kneading/fruitbar.json",
+        "path": "/0/ingredients/0/inputs/-",
+        "value": {
+            "type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"        
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:recipes/kneading/fruitbar.json",
+        "path": "/1/ingredients/0/inputs/-",
+        "value": {
+            "type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"        
+    }
+]

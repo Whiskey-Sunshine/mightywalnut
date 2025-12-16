@@ -1,0 +1,28 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/drops/-",
+        "value": {
+			"type": "item",
+			"code": "mightywalnut:walnut-whole",
+			"quantityByType": {
+			    "*-walnut": { "avg": 1.5, "var": 1.5 }
+		    }
+        },
+    "file": "game:blocktypes/plant/leaves/branchy.json",
+    "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/drops/-",
+        "value": {
+			"type": "item",
+			"code": "mightywalnut:walnut-whole",
+			"quantityByType": {
+			    "*-walnut": { "avg": 1.5, "var": 1.5 }
+		    }
+        },
+    "file": "game:blocktypes/plant/leaves/normal.json",
+    "side": "Server"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": ["walnut"],
+        "file": "expandedfoods:itemtypes/liquid/treesyrup.json",
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/waterTightContainerProps/textureByType/*-walnut",
+        "value": { "base": "mightywalnut:block/liquid/walnutsyrup" },
+        "file": "expandedfoods:itemtypes/liquid/treesyrup.json",
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/textureByType/*-walnut",
+        "value": { "base": "mightywalnut:block/liquid/walnutsyrup" },
+        "file": "expandedfoods:itemtypes/liquid/treesyrup.json",
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    }
+]

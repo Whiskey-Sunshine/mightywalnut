@@ -1,0 +1,22 @@
+[
+    {
+        "op": "addeach",
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "path": "/ingredients/14/validStacks/-",
+        "value": [
+            {"type": "item", "code": "mightywalnut:walnut-shelled",  "shapeElement": "bowl/nuts 1/*", "textureMapping": ["acorns", "group15"]}
+        ],
+        "side": "Server",
+        "dependsOn": [{"modid": "expandedfoods"}]
+    },
+    {
+        "op": "addeach",
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "path": "/ingredients/15/validStacks/-",
+        "value": [
+            {"type": "item", "code": "mightywalnut:walnut-shelled",  "shapeElement": "bowl/nuts 2/*", "textureMapping": ["acorns", "peanut"]}
+        ],
+        "side": "Server",
+        "dependsOn": [{"modid": "expandedfoods"}]
+    }
+]

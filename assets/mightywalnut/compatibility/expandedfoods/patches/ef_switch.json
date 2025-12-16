@@ -1,0 +1,10 @@
+[
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/liquid/walnutsap.json",
+        "path": "/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "expandedfoods", "invert": true}],
+        "side": "Server"
+    }
+]

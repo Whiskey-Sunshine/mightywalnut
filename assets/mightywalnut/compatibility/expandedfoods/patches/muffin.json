@@ -1,0 +1,176 @@
+[
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/food/mixing/muffin.json",
+        "path": "/attributes/renderIngredientsByType/*-dough/mightywalnut:walnut-shelled",
+        "value": {
+            "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/muffin.json", "name": "type", "textureMap": { "fruit": "peanut" }
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/food/mixing/muffin.json",
+        "path": "/attributes/renderIngredientsByType/@*-(syruppartbaked|partbaked)/mightywalnut:walnut-shelled",
+        "value": {
+            "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/muffin.json", "name": "type", "textureMap": { "fruit": "peanut" }
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/food/mixing/muffin.json",
+        "path": "/attributes/renderIngredientsByType/@*-(syrup|cooked)/mightywalnut:walnut-shelled",
+        "value": {
+            "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/muffin.json", "name": "type", "textureMap": { "fruit": "peanut" }
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/food/mixing/muffin.json",
+        "path": "/attributes/renderIngredientsByType/@*-(syrupcharred|charred)/mightywalnut:walnut-shelled",
+        "value": {
+            "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/muffin.json", "name": "type", "textureMap": { "fruit": "peanut" }
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/food/mixing/muffin.json",
+        "path": "/attributes/renderIngredientsByType/*-dough/expandedfoods:treesyrupportion-walnut",
+        "value": {
+            "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/muffin.json", "name": "type", "textureMap": { "syrup": "walnut" }
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/food/mixing/muffin.json",
+        "path": "/attributes/renderIngredientsByType/@*-(syruppartbaked|partbaked)/expandedfoods:treesyrupportion-walnut",
+        "value": {
+            "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/muffin.json", "name": "type", "textureMap": { "syrup": "walnut" }
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/food/mixing/muffin.json",
+        "path": "/attributes/renderIngredientsByType/@*-(syrup|cooked)/expandedfoods:treesyrupportion-walnut",
+        "value": {
+            "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/muffin.json", "name": "type", "textureMap": { "syrup": "walnut" }
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/food/mixing/muffin.json",
+        "path": "/attributes/renderIngredientsByType/@*-(syrupcharred|charred)/expandedfoods:treesyrupportion-walnut",
+        "value": {
+            "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/muffin.json", "name": "type", "textureMap": { "syrup": "walnut" }
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/food/mixing/muffin.json",
+        "path": "/textures/walnut",
+        "value": {
+            "base": "mightywalnut:block/liquid/walnutsyrup"
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:recipes/kneading/muffindough.json",
+        "path": "/0/ingredients/2/inputs/-",
+        "value": {
+            "type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"        
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:recipes/kneading/muffindough.json",
+        "path": "/0/ingredients/3/inputs/-",
+        "value": {
+            "type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"        
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:recipes/kneading/muffindough.json",
+        "path": "/1/ingredients/2/inputs/-",
+        "value": {
+            "type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"        
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:recipes/kneading/muffindough.json",
+        "path": "/3/ingredients/1/inputs/-",
+        "value": {
+            "type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"        
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:recipes/kneading/muffindough.json",
+        "path": "/3/ingredients/2/inputs/-",
+        "value": {
+            "type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"        
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:recipes/kneading/muffindough.json",
+        "path": "/4/ingredients/1/inputs/-",
+        "value": {
+            "type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"        
+    },
+    {
+        "op": "addeach",
+        "path": "/0/ingredients/1/inputs/0/allowedVariants/-",
+        "value": ["walnut"],
+        "file": "expandedfoods:recipes/kneading/muffindough.json",
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addeach",
+        "path": "/1/ingredients/1/inputs/0/allowedVariants/-",
+        "value": ["walnut"],
+        "file": "expandedfoods:recipes/kneading/muffindough.json",
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addeach",
+        "path": "/2/ingredients/1/inputs/0/allowedVariants/-",
+        "value": ["walnut"],
+        "file": "expandedfoods:recipes/kneading/muffindough.json",
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    }
+]

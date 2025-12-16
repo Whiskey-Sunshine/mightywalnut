@@ -1,0 +1,42 @@
+[
+    {
+        "op": "addeach",
+        "file": "game:recipes/cooking/vegetablestew.json",
+        "path": "/ingredients/0/validStacks/-",
+        "value": [
+            { "type": "item", "code": "mightywalnut:walnut-shelled", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group15" ]}
+        ],
+        "side": "Server",
+        "dependsOn": [{"modid": "expandedfoods"}]
+    },
+    {
+        "op": "addeach",
+        "file": "game:recipes/cooking/vegetablestew.json",
+        "path": "/ingredients/1/validStacks/-",
+        "value": [
+            { "type": "item", "code": "mightywalnut:walnut-shelled", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "peanut" ]}
+        ],
+        "side": "Server",
+        "dependsOn": [{"modid": "expandedfoods"}]
+    },
+    {
+        "op": "addeach",
+        "file": "game:recipes/cooking/vegetablestew.json",
+        "path": "/ingredients/7/validStacks/-",
+        "value": [
+            {"type": "item", "code": "mightywalnut:walnut-shelled",  "shapeElement": "bowl/nuts 1/*", "textureMapping": ["acorns", "group15"]}
+        ],
+        "side": "Server",
+        "dependsOn": [{"modid": "expandedfoods"}]
+    },
+    {
+        "op": "addeach",
+        "file": "game:recipes/cooking/vegetablestew.json",
+        "path": "/ingredients/8/validStacks/-",
+        "value": [
+            {"type": "item", "code": "mightywalnut:walnut-shelled",  "shapeElement": "bowl/nuts 2/*", "textureMapping": ["acorns", "peanut"]}
+        ],
+        "side": "Server",
+        "dependsOn": [{"modid": "expandedfoods"}]
+    }
+]

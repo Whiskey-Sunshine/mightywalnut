@@ -1,0 +1,36 @@
+[
+    {
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": ["walnut"],
+        "file": "expandedfoods:itemtypes/food/gelatin.json",
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/nutritionPropsByType",
+        "value": {
+            "*-walnut": { "saturation": 200, "health": 4, "foodcategory": "Fruit" }
+        },
+        "file": "expandedfoods:itemtypes/food/gelatin.json",
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+	{
+        "op": "move",
+		"frompath": "/nutritionPropsByType/*",
+		"path": "/temp",
+		"file": "expandedfoods:itemtypes/food/gelatin.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/nutritionPropsByType/*",
+		"file": "expandedfoods:itemtypes/food/gelatin.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+    }
+]

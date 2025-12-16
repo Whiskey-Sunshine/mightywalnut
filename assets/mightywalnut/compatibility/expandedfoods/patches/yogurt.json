@@ -1,0 +1,10 @@
+[
+    {
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": ["walnut"],
+        "file": "expandedfoods:itemtypes/liquid/yogurt.json",
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    }
+]
