@@ -1,0 +1,61 @@
+[
+    {
+        "ingredientPattern": "S,W",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stone-*",
+                "name": "stone"
+            },
+            "W": {
+                "type": "item",
+                "code": "mightywalnut:walnut-whole",
+                "name": "walnut"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "name": "stonewalnutcrack",
+        "output": { "type": "item", "code": "mightywalnut:walnut-shelled"}
+    },
+    {
+        "ingredientPattern": "H,W",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "name": "hammer",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "mightywalnut:walnut-whole",
+                "name": "walnut"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "name": "hammerwalnutcrack",
+        "output": { "type": "item", "code": "mightywalnut:walnut-shelled"}
+    },
+    {
+        "ingredientPattern": "P,W",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "aculinaryartillery:rollingpin-*",
+                "name": "rollingpin",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "mightywalnut:walnut-whole",
+                "name": "walnut"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "name": "rollingpinwalnutcrack",
+        "output": { "type": "item", "code": "mightywalnut:walnut-shelled"}
+    }
+]
