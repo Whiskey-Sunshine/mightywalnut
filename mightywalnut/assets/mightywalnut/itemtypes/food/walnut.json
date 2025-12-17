@@ -14,7 +14,7 @@
 		},
 		"foodTags": ["peanut"],
 		"inPiePropertiesByType": {
-			"*-shelled": { "texture": "mightywalnut:block/food/pie/fill-walnut", "partType": 'Filling' }
+			"*-shelled": { "texture": "mightywalnut:block/food/pie/fill-walnut", "partType": "Filling" }
 		}
 	},
 	"attributesByType": {
@@ -53,10 +53,10 @@
     },
 	"materialDensity": 600,	
 	"guiTransform": {
-		"translation": { "x": 0, "y": 0, "z": -25 },
-		"rotation": { "x": 171, "y": 57, "z": -20 },
-		"origin": { "x": 0.46, "y": 0.11, "z": 0.39 },
-		"scale": 2.64
+		"translation": { "x": 0, "y": -10, "z": 0 },
+		"rotation": { "x": 118, "y": 157, "z": -22 },
+		"origin": { "x": 0.46, "y": 0.11, "z": 0.4 },
+		"scale": 2.8
 	},
 	"fpHandTransform": {
 		"translation": { "x": 0.1, "y": 0.16, "z": 0 },
