@@ -3,7 +3,11 @@
         "op": "addmerge",
         "path": "/dropsByType",
         "value": {
-			"*-*-walnut": [{ "type": "item", "code": "mightywalnut:walnut-whole", "quantity": { "avg": 1.5, "var": 1.5 }}]
+			"*-*-walnut": [
+                { "type": "item", "code": "mightywalnut:walnut-whole", "quantity": { "avg": 1.5, "var": 1.5 }},
+                { "type": "item", "code": "game:stick", "quantity": { "avg": 1, "var": 0 }},
+                { "type": "item", "code": "game:treeseed-walnut", "quantity": { "avg": 0.05, "var": 0 }}
+            ]
         },
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "side": "Server"
@@ -12,7 +16,11 @@
         "op": "addmerge",
         "path": "/dropsByType",
         "value": {
-			"*-*-walnut": [{ "type": "item", "code": "mightywalnut:walnut-whole", "quantity": { "avg": 1.5, "var": 1.5 }}]
+			"*-*-walnut": [
+                { "type": "item", "code": "mightywalnut:walnut-whole", "quantity": { "avg": 1.5, "var": 1.5 }},
+                { "type": "item", "code": "game:stick", "quantity": { "avg": 0.02, "var": 0 }},
+                { "type": "item", "code": "game:treeseed-walnut", "quantity": { "avg": 0.02, "var": 0 }}
+            ]
         },
         "file": "game:blocktypes/plant/leaves/normal.json",
         "side": "Server"
