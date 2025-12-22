@@ -18,7 +18,7 @@
 		}
 	},
 	"attributesByType": {
-		"*-shelled": { "foodTags": ["{type}"], "nutritionPropsWhenInMeal": { "satiety": 210, "foodcategory": "Protein" } } 
+		"*-shelled": { "foodTags": ["{type}"], "nutritionPropsWhenInMeal": { "satiety": 210, "foodcategory": "Protein" }}
 	},
 	"shapeByType": {
         "*-whole": {"base": "item/food/nut/walnut"},

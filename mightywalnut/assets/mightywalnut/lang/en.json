@@ -6,6 +6,11 @@
     "expandedfoods:item-treesyrupportion-walnut": "Walnut syrup portion",
     "expandedfoods:incontainer-item-treesyrupportion-walnut": "Walnut syrup",
     "expandedfoods:item-gelatin-walnut": "Walnut gelatin",
+    "expandedfoods:item-foodoilportion-walnut": "Walnut oil portion",
+    "expandedfoods:incontainer-item-foodoilportion-walnut": "Walnut oil",
+
+    "game:item-pressedmash-walnut-wet": "Wet walnut mash",
+    "game:item-pressedmash-walnut-dry": "Dry walnut mash",
 
     "expandedfoods:itemdesc-gelatin-walnut": "It's slightly savory, and VERY nutty...",
     "game:recipeingredient-item-gelatin-walnut": "walnut gelatin",
@@ -31,6 +36,13 @@
     "expandedfoods:recipeingredient-item-yogurt-walnut-insturmentalcase": "walnut yogurt",
     "expandedfoods:itemdesc-yogurt-walnut": "Sweet, nutty, and creamy!",
 
+    "game:recipeingredient-item-foodoilportion-walnut": "walnut oil",
+    "game:recipeingredient-item-foodoilportion-walnut-insturmentalcase": "walnut oil",
+    "recipeingredient-item-foodoilportion-walnut": "walnut oil",
+    "recipeingredient-item-foodoilportion-walnut-insturmentalcase": "walnut oil",
+    "game:meal-ingredient-stew-primary-foodoilportion-walnut": "walnut oil",
+    "game:meal-ingredient-stew-secondary-foodoilportion-walnut": "walnut oil",
+
     "pie-single-mightywalnut:walnut-shelled-raw": "Walnut pie (raw)",
     "pie-single-mightywalnut:walnut-shelled-partbaked": "Walnut pie (part-baked)",
     "pie-single-mightywalnut:walnut-shelled-perfect": "Walnut pie",
@@ -45,6 +57,7 @@
     "expandedfoods:itemdesc-walnutsapportion": "Boil into syrup or drink it on its own! It's a little bitter though...",
     "expandedfoods:itemdesc-treesyrupportion-walnut": "Thick, sweet, and extra nutty, good on treats or as batter! ",
     "expandedfoods:itemdesc-walnut-whole": "Crack it open to reveal the tasty treasure inside.",
+    "game:itemdesc-pressedmash-walnut": "Crudely pressed walnut. Not too appetizing looking, but some animals might still eat this.",
 
     "expandedfoods:item-handbooktitle-walnutsapportion": "Tapping walnut trees",
     "expandedfoods:item-handbooktext-walnutsapportion": "Walnut tree sap flows freely during the autumn months, in October, November, and December. Jam a <a href=\"handbook://block-aculinaryartillery:spile-copper-north\">spile</a> into the trunk and place a bucket, barrel, cauldron, or other liquid container directly below to collect it, then boil it down into a sweet and nutty treat!"

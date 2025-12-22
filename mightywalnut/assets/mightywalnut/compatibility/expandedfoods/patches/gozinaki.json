@@ -1,0 +1,72 @@
+[
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/food/mixing/gozinaki.json",
+        "path": "/attributes/renderIngredientsByType/*-cooked",
+        "value": {
+            "mightywalnut:walnut-shelled": "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json"
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server" 
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/food/mixing/gozinaki.json",
+        "path": "/attributes/renderIngredientsByType/*-mashed",
+        "value": {
+            "mightywalnut:walnut-shelled": "expandedfoods:shapes/item/food/gozinaki/gozinakimashed.json"
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server" 
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/food/mixing/gozinaki.json",
+        "path": "/attributes/renderIngredientsByType/*-syrup",
+        "value": {
+            "mightywalnut:walnut-shelled": "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json"
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server" 
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/food/mixing/gozinaki.json",
+        "path": "/attributes/renderIngredientsByType/*-syrup/expandedfoods:treesyrupportion-walnut",
+        "value": {
+			"shape": "expandedfoods:shapes/item/food/gozinaki/syrup.json", "textureMap": { "syrup": "walnut" }
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server" 
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/food/mixing/gozinaki.json",
+        "path": "/textures/walnut",
+        "value": {
+			"base": "mightywalnut:block/liquid/walnutsyrup"
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server" 
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:recipes/kneading/gozinaki.json",
+        "path": "/0/ingredients/1/inputs/-",
+        "value": {
+            "type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"        
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:recipes/kneading/gozinaki.json",
+        "path": "/1/ingredients/1/inputs/-",
+        "value": {
+            "type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"        
+    }
+]

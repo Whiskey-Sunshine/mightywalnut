@@ -1,0 +1,67 @@
+[
+    {
+        "op": "addeach",
+        "file": "game:itemtypes/resource/pressedmash.json",
+        "path": "/variantgroups/0/states/-",
+        "value": ["walnut"],
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addeach",
+        "file": "expandedfoods:itemtypes/liquid/foodoil.json",
+        "path": "/variantgroups/0/states/-",
+        "value": ["walnut"],
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "game:itemtypes/resource/pressedmash.json",
+        "path": "/attributes/juiceablePropertiesByType/*-walnut",
+        "value": {
+            "liquidStack": {
+                "type": "item",
+                "code": "expandedfoods:foodoilportion-walnut",
+                "stacksize": 1
+            },
+            "pressedStack": {
+                "type": "item",
+                "code": "game:pressedmash-{fruit}",
+                "stacksize": 1
+            }
+        },
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "mightywalnut:itemtypes/food/walnut.json",
+        "path": "/attributes/juiceablePropertiesByType",
+        "value": {
+            "*-shelled": {
+			    "litresPerItem": 0.078125,
+			    "liquidStack": { "type": "item", "code": "expandedfoods:foodoilportion-walnut", "stacksize": 1 },
+			    "pressedStack": { "type": "item", "code": "game:pressedmash-walnut", "stacksize": 1 }
+		    }
+        },
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+    },
+    {
+        "op": "move",
+        "file": "game:itemtypes/resource/pressedmash.json",
+        "path": "/temp",
+        "frompath": "/attributes/juiceablePropertiesByType/*",
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "game:itemtypes/resource/pressedmash.json",
+        "path": "/attributes/juiceablePropertiesByType/*",
+        "frompath": "/temp",
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    }
+]
