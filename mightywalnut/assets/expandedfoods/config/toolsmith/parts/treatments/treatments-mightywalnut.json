@@ -1,0 +1,9 @@
+[
+    {
+		"id": "foodoilportion-walnut",
+		"treatmentStatTag": "oil",
+		"dryingHours": 24,
+		"isLiquid": true,
+		"litersUsed": 0.1
+	}
+]

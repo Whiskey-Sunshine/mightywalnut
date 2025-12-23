@@ -24,5 +24,11 @@
         },
         "file": "game:blocktypes/plant/leaves/normal.json",
         "side": "Server"
+    },
+    {
+        "op": "remove",
+        "file": "game:itemtypes/resource/treeseed.json",
+        "path": "/nutritionPropsByType",
+        "side": "Server"
     }
 ]
