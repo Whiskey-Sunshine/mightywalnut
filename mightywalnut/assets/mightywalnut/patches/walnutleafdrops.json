@@ -3,20 +3,21 @@
         "op": "addmerge",
         "path": "/dropsByType",
         "value": {
-			"*-*-walnut": [
+			"*-walnut": [
                 { "type": "item", "code": "mightywalnut:walnut-whole", "quantity": { "avg": 1.5, "var": 1.5 }},
                 { "type": "item", "code": "game:stick", "quantity": { "avg": 1, "var": 0 }},
                 { "type": "item", "code": "game:treeseed-walnut", "quantity": { "avg": 0.05, "var": 0 }}
             ]
         },
         "file": "game:blocktypes/plant/leaves/branchy.json",
+        "dependsOn": [{"modid": "wildcrafttree", "invert": true}],
         "side": "Server"
     },
     {
         "op": "addmerge",
         "path": "/dropsByType",
         "value": {
-			"*-*-walnut": [
+			"*-walnut": [
                 { "type": "item", "code": "mightywalnut:walnut-whole", "quantity": { "avg": 1.5, "var": 1.5 }},
                 { "type": "item", "code": "game:stick", "quantity": { "avg": 0.02, "var": 0 }},
                 { "type": "item", "code": "game:treeseed-walnut", "quantity": { "avg": 0.02, "var": 0 }}
@@ -29,6 +30,7 @@
         "op": "remove",
         "file": "game:itemtypes/resource/treeseed.json",
         "path": "/nutritionPropsByType",
+        "dependsOn": [{"modid": "wildcrafttree", "invert": true}],
         "side": "Server"
     }
 ]

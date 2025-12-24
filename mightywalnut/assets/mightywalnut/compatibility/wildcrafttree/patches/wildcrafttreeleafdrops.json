@@ -1,0 +1,54 @@
+[
+    {
+        "op": "addmerge",
+        "file": "game:blocktypes/plant/leaves/normal.json",
+        "path": "/dropsByType/*-walnut/-",
+        "value": {
+            "type": "item", "code": "mightywalnut:walnut-whole", "quantity": { "avg": 1.5, "var": 1.5 }
+        },
+		"dependsOn": [{ "modid": "wildcrafttree"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "game:blocktypes/plant/leaves/branchy.json",
+        "path": "/dropsByType/*-walnut/-",
+        "value": {
+            "type": "item", "code": "mightywalnut:walnut-whole", "quantity": { "avg": 1.5, "var": 1.5 }
+        },
+		"dependsOn": [{ "modid": "wildcrafttree"}],
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/dropsByType/*",
+		"path": "/temp",
+        "file": "game:blocktypes/plant/leaves/normal.json",
+		"dependsOn": [{ "modid": "wildcrafttree"}],
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/dropsByType/*",
+        "file": "game:blocktypes/plant/leaves/normal.json",
+		"dependsOn": [{ "modid": "wildcrafttree"}],
+		"side": "Server"
+    },
+	{
+        "op": "move",
+		"frompath": "/dropsByType/*",
+		"path": "/temp",
+        "file": "game:blocktypes/plant/leaves/branchy.json",
+		"dependsOn": [{ "modid": "wildcrafttree"}],
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/dropsByType/*",
+        "file": "game:blocktypes/plant/leaves/branchy.json",
+		"dependsOn": [{ "modid": "wildcrafttree"}],
+		"side": "Server"
+    }
+]
