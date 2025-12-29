@@ -11,7 +11,8 @@
             "W": {
                 "type": "item",
                 "code": "mightywalnut:walnut-whole",
-                "name": "walnut"
+                "name": "walnut",
+                "quantity": 4
             }
         },
         "width": 1,
@@ -27,12 +28,14 @@
                 "type": "item",
                 "code": "game:hammer-*",
                 "name": "hammer",
-                "isTool": true
+                "isTool": true,
+                "toolDurabilityCost": 1
             },
             "W": {
                 "type": "item",
                 "code": "mightywalnut:walnut-whole",
-                "name": "walnut"
+                "name": "walnut",
+                "quantity": 4
             }
         },
         "width": 1,
@@ -48,12 +51,14 @@
                 "type": "item",
                 "code": "aculinaryartillery:rollingpin-*",
                 "name": "rollingpin",
-                "isTool": true
+                "isTool": true,
+                "toolDurabilityCost": 1
             },
             "W": {
                 "type": "item",
                 "code": "mightywalnut:walnut-whole",
-                "name": "walnut"
+                "name": "walnut",
+                "quantity": 4
             }
         },
         "width": 1,

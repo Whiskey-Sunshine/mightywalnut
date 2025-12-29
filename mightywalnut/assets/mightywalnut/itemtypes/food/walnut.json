@@ -12,7 +12,9 @@
 			"translation": { "x": 0.025, "y": -0.075, "z": 0.025 },
 			"scale": 0.86
 		},
-		"foodTags": ["peanut"],
+		"foodTagsByType": { 
+			"*-shelled": ["peanut"]
+		},
 		"inPiePropertiesByType": {
 			"*-shelled": { "texture": "mightywalnut:block/food/pie/fill-walnut", "partType": "Filling" }
 		}

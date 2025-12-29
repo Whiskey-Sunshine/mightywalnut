@@ -1,0 +1,94 @@
+[
+    {
+        "op": "addeach",
+        "file": "game:blocktypes/wood/trough-large.json",
+        "path": "/attributes/contentConfig/-",
+        "side": "server",
+        "value": [ 
+            { "code": "walnut",
+                "content": { "type": "item", "code": "mightywalnut:walnut-shelled" },
+                "quantityPerFillLevel": 4,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/legumefill1", "block/wood/trough/large/legumefill1", 
+                                        "block/wood/trough/large/legumefill2", "block/wood/trough/large/legumefill2",
+                                        "block/wood/trough/large/legumefill3", "block/wood/trough/large/legumefill3",
+                                        "block/wood/trough/large/legumefill4", "block/wood/trough/large/legumefill4" ],
+                "textureCode": "contents-walnut"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "game:blocktypes/wood/trough-large.json",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "contents-walnut": {
+                "base": "mightywalnut:block/food/pie/fill-walnut",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            }
+        }
+    },
+    {
+        "op": "addeach",
+        "file": "game:blocktypes/wood/trough-small.json",
+        "path": "/attributes/contentConfig/-",
+        "side": "server",
+        "value": [ 
+            { "code": "walnut",
+                "content": { "type": "item", "code": "mightywalnut:walnut-shelled" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill1", 
+                                        "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill2",
+                                        "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill3",
+                                        "block/wood/trough/small/legumefill4", "block/wood/trough/small/legumefill4" ],
+                "textureCode": "contents-walnut"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "game:blocktypes/wood/trough-small.json",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "contents-walnut": {
+                "base": "mightywalnut:block/food/pie/fill-walnut",
+                "overlays": [
+                  "block/wood/trough/small/shadow"
+                ]
+            }
+        }
+    },
+    {
+        "op": "addmerge",
+        "file": "game:blocktypes/wood/trough-large.json",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "contents-pressedmash-walnut": {
+                "base": "mightywalnut:block/food/pie/fill-walnut",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            }
+        }
+    },
+    {
+        "op": "addmerge",
+        "file": "game:blocktypes/wood/trough-small.json",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "contents-pressedmash-walnut": {
+                "base": "mightywalnut:block/food/pie/fill-walnut",
+                "overlays": [
+                  "block/wood/trough/small/shadow"
+                ]
+            }
+        }
+    }
+]
