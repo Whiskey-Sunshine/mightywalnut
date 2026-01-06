@@ -1,15 +1,30 @@
 [
     {
+		"op": "addmerge",
+		"file": "mightywalnut:patches/walnutleafdrops.json",
+		"path": "/0/enabled",
+		"value": false,
+		"dependsOn": [{"modid":"usefulshears"}]
+	},
+	{
+		"op": "addmerge",
+		"file": "mightywalnut:patches/walnutleafdrops.json",
+		"path": "/1/enabled",
+		"value": false,
+		"dependsOn": [{"modid":"usefulshears"}]
+	},
+	{
         "op": "addmerge",
         "path": "/dropsByType",
         "value": {
 			"*-walnut": [
                 { "type": "item", "code": "mightywalnut:walnut-whole", "quantity": { "avg": 1.5, "var": 1.5 }},
                 { "type": "item", "code": "game:stick", "quantity": { "avg": 1, "var": 0 }},
-                { "type": "item", "code": "game:treeseed-walnut", "quantity": { "avg": 0.05, "var": 0 }}
+                { "type": "item", "code": "game:treeseed-walnut", "quantity": { "avg": 0.1, "var": 0 }}
             ]
         },
         "file": "game:blocktypes/plant/leaves/branchy.json",
+        "dependsOn": [{"modid": "usefulshears"}],
         "side": "Server"
     },
     {
@@ -19,16 +34,11 @@
 			"*-walnut": [
                 { "type": "item", "code": "mightywalnut:walnut-whole", "quantity": { "avg": 1.5, "var": 1.5 }},
                 { "type": "item", "code": "game:stick", "quantity": { "avg": 0.02, "var": 0 }},
-                { "type": "item", "code": "game:treeseed-walnut", "quantity": { "avg": 0.02, "var": 0 }}
+                { "type": "item", "code": "game:treeseed-walnut", "quantity": { "avg": 0.05, "var": 0 }}
             ]
         },
         "file": "game:blocktypes/plant/leaves/normal.json",
-        "side": "Server"
-    },
-    {
-        "op": "remove",
-        "file": "game:itemtypes/resource/treeseed.json",
-        "path": "/nutritionPropsByType",
+        "dependsOn": [{"modid": "usefulshears"}],
         "side": "Server"
     }
 ]

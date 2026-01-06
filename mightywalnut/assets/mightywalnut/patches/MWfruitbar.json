@@ -28,7 +28,7 @@
     {
         "op": "addmerge",
         "file": "expandedfoods:itemtypes/food/mixing/fruitbar.json",
-        "path": "/attributes/renderIngredients/mightywalnut:walnut-shelled",
+        "path": "/attributes/renderIngredients/mightywalnut:walnut-*",
         "value": {
             "shape": "expandedfoods:shapes/item/food/fruitbar/base.json", "name": "base", "textureMap": { "base": "acorn" }
         },
@@ -36,22 +36,24 @@
         "side": "Server"
     },
     {
-        "op": "addmerge",
+        "op": "addeach",
         "file": "expandedfoods:recipes/kneading/fruitbar.json",
         "path": "/0/ingredients/0/inputs/-",
-        "value": {
-            "type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1
-        },
+        "value": [
+            {"type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1},
+            {"type": "item", "code": "mightywalnut:walnut-roasted", "quantity": 1}
+        ],
         "dependsOn": [{ "modid": "expandedfoods" }],
         "side": "Server"        
     },
     {
-        "op": "addmerge",
+        "op": "addeach",
         "file": "expandedfoods:recipes/kneading/fruitbar.json",
         "path": "/1/ingredients/0/inputs/-",
-        "value": {
-            "type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1
-        },
+        "value": [
+            {"type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1},
+            {"type": "item", "code": "mightywalnut:walnut-roasted", "quantity": 1}
+        ],
         "dependsOn": [{ "modid": "expandedfoods" }],
         "side": "Server"        
     }

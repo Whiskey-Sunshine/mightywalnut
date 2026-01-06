@@ -1,5 +1,19 @@
 [
     {
+		"op": "addmerge",
+		"file": "mightywalnut:patches/walnutleafdrops.json",
+		"path": "/0/enabled",
+		"value": false,
+		"dependsOn": [{"modid":"wildcrafttree"}]
+	},
+	{
+		"op": "addmerge",
+		"file": "mightywalnut:patches/walnutleafdrops.json",
+		"path": "/1/enabled",
+		"value": false,
+		"dependsOn": [{"modid":"wildcrafttree"}]
+	},
+    {
         "op": "addmerge",
         "file": "game:blocktypes/plant/leaves/normal.json",
         "path": "/dropsByType/*-walnut/-",

@@ -14,7 +14,8 @@
         "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
         "path": "/ingredients/7/validStacks/-",
         "value": [
-            {"type": "item", "code": "mightywalnut:walnut-shelled",  "shapeElement": "bowl/nuts 1/*", "textureMapping": ["acorns", "group15"]}
+            {"type": "item", "code": "mightywalnut:walnut-shelled",  "shapeElement": "bowl/nuts 1/*", "textureMapping": ["acorns", "group15"]},
+            {"type": "item", "code": "mightywalnut:walnut-roasted",  "shapeElement": "bowl/nuts 1/*", "textureMapping": ["acorns", "group15"]}
         ],
         "side": "Server",
         "dependsOn": [{"modid": "expandedfoods"}]
@@ -24,7 +25,8 @@
         "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
         "path": "/ingredients/8/validStacks/-",
         "value": [
-            {"type": "item", "code": "mightywalnut:walnut-shelled",  "shapeElement": "bowl/nuts 2/*", "textureMapping": ["acorns", "peanut"]}
+            {"type": "item", "code": "mightywalnut:walnut-shelled",  "shapeElement": "bowl/nuts 2/*", "textureMapping": ["acorns", "peanut"]},
+            {"type": "item", "code": "mightywalnut:walnut-roasted",  "shapeElement": "bowl/nuts 2/*", "textureMapping": ["acorns", "peanut"]}
         ],
         "side": "Server",
         "dependsOn": [{"modid": "expandedfoods"}]

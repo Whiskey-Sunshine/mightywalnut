@@ -6,12 +6,7 @@
 	"attributes": {
 		"handbook": {
 			"ignoreCreativeInvStacks": true,
-			"extraSections": [
-        		{
-        		"title": "expandedfoods:item-handbooktitle-walnutsapportion",
-          		"text": "expandedfoods:item-handbooktext-walnutsapportion"
-        		}
-			]
+			"extraSections": [{"title": "expandedfoods:item-handbooktitle-walnutsapportion", "text": "expandedfoods:item-handbooktext-walnutsapportion"}]
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		"waterTightContainerProps": {

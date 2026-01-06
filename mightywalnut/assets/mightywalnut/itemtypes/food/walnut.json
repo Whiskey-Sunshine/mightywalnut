@@ -2,36 +2,59 @@
 	"code": "walnut",
 	"maxstacksize": 64,
 	"variantgroups": [
-		{ "code": "type", "states": ["whole", "shelled"] }
+		{ "code": "type", "states": ["whole", "shelled", "roasted"] }
 	],
 	"attributes": {
         "displaycaseable": true,
 		"shelvable": true,
-		"inContainerTexture": { "base": "block/wood/barrel/raw-soybean" },
+		"inContainerTextureByType": { 
+			"*-whole": {"base": "block/wood/barrel/raw-olive"},
+			"@*-(shelled|roasted)": {"base": "block/wood/barrel/raw-soybean"}
+		},
 		"groundStorageTransform": {
 			"translation": { "x": 0.025, "y": -0.075, "z": 0.025 },
 			"scale": 0.86
 		},
 		"foodTagsByType": { 
-			"*-shelled": ["peanut"]
+			"@*-(shelled|roasted)": ["peanut"]
 		},
 		"inPiePropertiesByType": {
-			"*-shelled": { "texture": "mightywalnut:block/food/pie/fill-walnut", "partType": "Filling" }
+			"@*-(shelled|roasted)": { "texture": "mightywalnut:block/food/pie/fill-walnut", "partType": "Filling" }
+		},
+		"bakingPropertiesByType": {
+			"*-shelled": {
+				"temp": 175,
+				"levelFrom": 0.25,
+				"levelTo": 1.0,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "mightywalnut:walnut-roasted"
+			},
+			"*-roasted": {
+				"temp": 175,
+				"levelFrom": 0.25,
+				"levelTo": 1.0,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"initialCode": "mightywalnut:walnut-shelled"
+			}
 		}
 	},
 	"attributesByType": {
-		"*-shelled": { "foodTags": ["{type}"], "nutritionPropsWhenInMeal": { "satiety": 210, "foodcategory": "Protein" }}
+		"*-shelled": {"nutritionPropsWhenInMeal": { "satiety": 180, "foodcategory": "Protein" }},
+		"*-roasted": {"nutritionPropsWhenInMeal": { "satiety": 220, "foodcategory": "Protein" }}
 	},
 	"shapeByType": {
         "*-whole": {"base": "item/food/nut/walnut"},
-        "*-shelled": {"base": "item/food/nut/walnutshelled"}
+        "*": {"base": "item/food/nut/walnutshelled"}
     },
+	"texturesByType": {
+		"*-roasted": {"walnut-shelled": {"base": "mightywalnut:item/food/nut/walnut-roasted"}}
+	},
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	"nutritionPropsByType": {
-		"*-shelled": { 
-			"satiety": 140, 
-			"foodcategory": "Protein"
-		}
+		"*-shelled": {"satiety": 140, "foodcategory": "Protein"},
+		"*-roasted": {"satiety": 170, "foodcategory": "Protein"}
 	},
 	"transitionablePropsByType": {
 		"*-whole": [
@@ -43,7 +66,7 @@
 				"transitionRatio": 0.33
 			}
 		],
-		"*-shelled": [
+		"@*-(shelled|roasted)": [
 			{
 				"type": "Perish",
 				"freshHours": { "avg": 4380 },
@@ -61,7 +84,7 @@
 			"origin": { "x": 0.44, "y": 0.1, "z": 0.53 },
 			"scale": 2.8
 		},
-		"*-shelled": {
+		"@*-(shelled|roasted)": {
 			"translation": { "x": 0, "y": -3, "z": 0 },
 			"rotation": { "x": -30, "y": -40, "z": 1 },
 			"origin": { "x": 0, "y": 0.4, "z": 0 },

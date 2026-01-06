@@ -1,0 +1,10 @@
+[
+	{
+    	"op": "addmerge",
+		"file": "foodshelves:config/restrictions/general/liquidystuff.json",
+    	"path": "/CollectibleCodes/-",
+    	"value": "mightywalnut:walnut-*",
+		"side": "server",
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	}
+]

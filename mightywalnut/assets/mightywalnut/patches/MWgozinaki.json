@@ -50,22 +50,24 @@
         "side": "Server" 
     },
     {
-        "op": "addmerge",
+        "op": "addeach",
         "file": "expandedfoods:recipes/kneading/gozinaki.json",
         "path": "/0/ingredients/1/inputs/-",
-        "value": {
-            "type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1
-        },
+        "value": [
+            {"type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1},
+            {"type": "item", "code": "mightywalnut:walnut-roasted", "quantity": 1}
+        ],
         "dependsOn": [{ "modid": "expandedfoods" }],
         "side": "Server"        
     },
     {
-        "op": "addmerge",
+        "op": "addeach",
         "file": "expandedfoods:recipes/kneading/gozinaki.json",
         "path": "/1/ingredients/1/inputs/-",
-        "value": {
-            "type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1
-        },
+        "value": [
+            {"type": "item", "code": "mightywalnut:walnut-shelled", "quantity": 1},
+            {"type": "item", "code": "mightywalnut:walnut-roasted", "quantity": 1}
+        ],
         "dependsOn": [{ "modid": "expandedfoods" }],
         "side": "Server"        
     }

@@ -1,6 +1,7 @@
 {
     "mightywalnut:item-walnut-whole": "Ripe walnuts",
     "mightywalnut:item-walnut-shelled": "Shelled walnuts",
+    "mightywalnut:item-walnut-roasted": "Roasted walnuts",
     "expandedfoods:item-walnutsapportion": "Walnut sap portion",
     "expandedfoods:incontainer-item-walnutsapportion": "Walnut sap",
     "expandedfoods:item-treesyrupportion-walnut": "Walnut syrup portion",
@@ -22,12 +23,19 @@
     "game:meal-ingredient-stew-primary-treesyrupportion-walnut": "walnut syrup",
     "game:meal-ingredient-stew-secondary-treesyrupportion-walnut": "walnut syrup",
 
-    "game:recipeingredient-item-walnut-shelled": "walnut",
-    "game:recipeingredient-item-walnut-shelled-insturmentalcase": "walnut",
-    "recipeingredient-item-walnut-shelled": "walnut",
-    "recipeingredient-item-walnut-shelled-insturmentalcase": "walnut",
+    "game:recipeingredient-item-walnut-shelled": "walnuts",
+    "game:recipeingredient-item-walnut-shelled-insturmentalcase": "walnuts",
+    "recipeingredient-item-walnut-shelled": "walnuts",
+    "recipeingredient-item-walnut-shelled-insturmentalcase": "walnuts",
     "game:meal-ingredient-stew-primary-walnut-shelled": "Walnut",
     "game:meal-ingredient-stew-secondary-walnut-shelled": "Walnut",
+
+    "game:recipeingredient-item-walnut-roasted": "walnuts",
+    "game:recipeingredient-item-walnut-roasted-insturmentalcase": "walnuts",
+    "recipeingredient-item-walnut-roasted": "walnuts",
+    "recipeingredient-item-walnut-roasted-insturmentalcase": "walnuts",
+    "game:meal-ingredient-stew-primary-walnut-roasted": "Walnut",
+    "game:meal-ingredient-stew-secondary-walnut-roasted": "Walnut",
 
     "expandedfoods:item-yogurt-walnut": "Walnut yogurt portion",
     "expandedfoods:incontainer-item-yogurt-walnut": "Walnut yogurt",
