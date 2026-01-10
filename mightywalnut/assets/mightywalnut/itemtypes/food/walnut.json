@@ -24,16 +24,16 @@
 		"bakingPropertiesByType": {
 			"*-shelled": {
 				"temp": 175,
-				"levelFrom": 0.25,
-				"levelTo": 1.0,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
 				"startScaleY": 1.0,
 				"endScaleY": 1.0,
 				"resultCode": "mightywalnut:walnut-roasted"
 			},
 			"*-roasted": {
 				"temp": 175,
-				"levelFrom": 0.25,
-				"levelTo": 1.0,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
 				"startScaleY": 1.0,
 				"endScaleY": 1.0,
 				"initialCode": "mightywalnut:walnut-shelled"
