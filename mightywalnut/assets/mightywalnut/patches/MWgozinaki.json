@@ -4,7 +4,7 @@
         "file": "expandedfoods:itemtypes/food/mixing/gozinaki.json",
         "path": "/attributes/renderIngredientsByType/*-cooked",
         "value": {
-            "mightywalnut:walnut-shelled": "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json"
+            "mightywalnut:walnut-*": "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json"
         },
         "dependsOn": [{ "modid": "expandedfoods" }],
         "side": "Server" 
@@ -14,7 +14,7 @@
         "file": "expandedfoods:itemtypes/food/mixing/gozinaki.json",
         "path": "/attributes/renderIngredientsByType/*-mashed",
         "value": {
-            "mightywalnut:walnut-shelled": "expandedfoods:shapes/item/food/gozinaki/gozinakimashed.json"
+            "mightywalnut:walnut-*": "expandedfoods:shapes/item/food/gozinaki/gozinakimashed.json"
         },
         "dependsOn": [{ "modid": "expandedfoods" }],
         "side": "Server" 
@@ -24,7 +24,7 @@
         "file": "expandedfoods:itemtypes/food/mixing/gozinaki.json",
         "path": "/attributes/renderIngredientsByType/*-syrup",
         "value": {
-            "mightywalnut:walnut-shelled": "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json"
+            "mightywalnut:walnut-*": "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json"
         },
         "dependsOn": [{ "modid": "expandedfoods" }],
         "side": "Server" 
