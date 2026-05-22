@@ -19,7 +19,7 @@
     },
 	{
         "op": "move",
-		"frompath": "/nutritionPropsByType/*",
+		"frompath": "/nutritionPropsByType/gelatin-*",
 		"path": "/temp",
 		"file": "expandedfoods:itemtypes/food/gelatin.json",
 		"dependsOn": [{ "modid": "expandedfoods" }],
@@ -28,7 +28,7 @@
     {
         "op": "move",
 		"frompath": "/temp",
-		"path": "/nutritionPropsByType/*",
+		"path": "/nutritionPropsByType/gelatin-*",
 		"file": "expandedfoods:itemtypes/food/gelatin.json",
 		"dependsOn": [{ "modid": "expandedfoods" }],
 		"side": "Server"

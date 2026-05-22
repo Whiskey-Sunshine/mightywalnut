@@ -9,9 +9,9 @@
             "dripChance": 1,
             "dripTime": 1,
             "seasons": [
-              10,
-              11,
-              12
+              3,
+              4,
+              5
             ]
         }
     },
