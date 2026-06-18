@@ -1,7 +1,7 @@
 [
     {
         "op": "addeach",
-        "file": "recipes/cooking/meatystew.json",
+        "file": "game:recipes/cooking/meatystew.json",
         "path": "/ingredients/5/validStacks/-",
         "value": [
             { "type": "item", "code": "mightywalnut:walnut-shelled", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group15" ]},
@@ -12,7 +12,7 @@
     },
     {
         "op": "addeach",
-        "file": "recipes/cooking/meatystew.json",
+        "file": "game:recipes/cooking/meatystew.json",
         "path": "/ingredients/6/validStacks/-",
         "value": [
             { "type": "item", "code": "mightywalnut:walnut-shelled", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group15" ]},
