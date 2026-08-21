@@ -1,0 +1,142 @@
+[
+{
+	"ingredientPattern": "MK,BP",
+	"ingredients": {
+		"K": { "type": "item", "code": "mightywalnut:walnut-shelled" },
+		"B": { "type": "item", "code": "game:grain-*", "quantity": 2 },
+		"M": { "type": "block", "code": "game:woodbucket" },
+		"P": { "type": "item", "code": "game:salt" }
+	},
+	"width": 2,
+	"height": 2,
+	"shapeless": false,
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "honeyportion" },
+			"requiresLitres": 0.1
+		}
+	},
+	"output": { "type": "item", "code": "pemmican:nutribar-general", "quantity": 1 }
+},
+{
+	"ingredientPattern": "MK,BP",
+	"ingredients": {
+		"K": { "type": "item", "code": "mightywalnut:walnut-shelled" },
+		"B": { "type": "item", "code": "game:grain-*", "quantity": 2 },
+		"M": { "type": "block", "code": "game:bowl-*-fired" },
+		"P": { "type": "item", "code": "game:salt" }
+	},
+	"width": 2,
+	"height": 2,
+	"shapeless": false,
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "honeyportion" },
+			"requiresLitres": 0.1
+		}
+	},
+	"output": { "type": "item", "code": "pemmican:nutribar-general", "quantity": 1 }
+},
+{
+	"ingredientPattern": "MK,BP",
+	"ingredients": {
+		"K": { "type": "item", "code": "mightywalnut:walnut-shelled" },
+		"B": { "type": "item", "code": "game:grain-*", "quantity": 2 },
+		"M": { "type": "block", "code": "game:jug-*-fired" },
+		"P": { "type": "item", "code": "game:salt" }
+	},
+	"width": 2,
+	"height": 2,
+	"shapeless": false,
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "honeyportion" },
+			"requiresLitres": 0.1
+		}
+	},
+	"output": { "type": "item", "code": "pemmican:nutribar-general", "quantity": 1 }
+},
+{
+	"ingredientPattern": "MK,BP",
+	"ingredients": {
+		"K": { "type": "item", "code": "mightywalnut:walnut-roasted" },
+		"B": { "type": "item", "code": "game:grain-*", "quantity": 2 },
+		"M": { "type": "block", "code": "game:woodbucket" },
+		"P": { "type": "item", "code": "game:salt" }
+	},
+	"width": 2,
+	"height": 2,
+	"shapeless": false,
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "honeyportion" },
+			"requiresLitres": 0.1
+		}
+	},
+	"output": { "type": "item", "code": "pemmican:nutribar-general", "quantity": 1 }
+},
+{
+	"ingredientPattern": "MK,BP",
+	"ingredients": {
+		"K": { "type": "item", "code": "mightywalnut:walnut-roasted" },
+		"B": { "type": "item", "code": "game:grain-*", "quantity": 2 },
+		"M": { "type": "block", "code": "game:bowl-*-fired" },
+		"P": { "type": "item", "code": "game:salt" }
+	},
+	"width": 2,
+	"height": 2,
+	"shapeless": false,
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "honeyportion" },
+			"requiresLitres": 0.1
+		}
+	},
+	"output": { "type": "item", "code": "pemmican:nutribar-general", "quantity": 1 }
+},
+{
+	"ingredientPattern": "MK,BP",
+	"ingredients": {
+		"K": { "type": "item", "code": "mightywalnut:walnut-roasted" },
+		"B": { "type": "item", "code": "game:grain-*", "quantity": 2 },
+		"M": { "type": "block", "code": "game:jug-*-fired" },
+		"P": { "type": "item", "code": "game:salt" }
+	},
+	"width": 2,
+	"height": 2,
+	"shapeless": false,
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "honeyportion" },
+			"requiresLitres": 0.1
+		}
+	},
+	"output": { "type": "item", "code": "pemmican:nutribar-general", "quantity": 1 }
+},
+{
+	"ingredientPattern": "MK,BP",
+	"ingredients": {
+		"K": { "type": "item", "code": "mightywalnut:walnut-roasted" },
+		"B": { "type": "item", "code": "game:grain-*", "quantity": 2 },
+		"M": { "type": "item", "code": "pemmican:caramel-dry" },
+		"P": { "type": "item", "code": "game:salt" }
+	},
+	"width": 2,
+	"height": 2,
+	"shapeless": false,
+	"output": { "type": "item", "code": "pemmican:nutribar-general", "quantity": 1 }
+},
+{
+	"ingredientPattern": "MK,BP",
+	"ingredients": {
+		"K": { "type": "item", "code": "mightywalnut:walnut-shelled" },
+		"B": { "type": "item", "code": "game:grain-*", "quantity": 2 },
+		"M": { "type": "item", "code": "pemmican:caramel-dry" },
+		"P": { "type": "item", "code": "game:salt" }
+	},
+	"width": 2,
+	"height": 2,
+	"shapeless": false,
+	"output": { "type": "item", "code": "pemmican:nutribar-general", "quantity": 1 }
+}
+]

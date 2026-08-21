@@ -1,7 +1,7 @@
 [
     {
         "op": "addeach",
-        "file": "game:recipes/cooking/compote.json",
+        "file": "expandedfoods:recipes/cooking/compote.json",
         "path": "/ingredients/6/validStacks/-",
         "value": [
             {"type": "item", "code": "mightywalnut:walnut-shelled",  "shapeElement": "bowl/nuts 1/*", "textureMapping": ["acorns", "group15"]},
@@ -12,7 +12,7 @@
     },
     {
         "op": "addeach",
-        "file": "game:recipes/cooking/compote.json",
+        "file": "expandedfoods:recipes/cooking/compote.json",
         "path": "/ingredients/7/validStacks/-",
         "value": [
             {"type": "item", "code": "mightywalnut:walnut-shelled",  "shapeElement": "bowl/nuts 2/*", "textureMapping": ["acorns", "peanut"]},

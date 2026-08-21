@@ -1,0 +1,66 @@
+[
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/walnutnutribar.json",
+        "path": "/0/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "longtermfood", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/walnutnutribar.json",
+        "path": "/1/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "longtermfood", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/walnutnutribar.json",
+        "path": "/2/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "longtermfood", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/walnutnutribar.json",
+        "path": "/3/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "longtermfood", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/walnutnutribar.json",
+        "path": "/4/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "longtermfood", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/walnutnutribar.json",
+        "path": "/5/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "longtermfood", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/walnutnutribar.json",
+        "path": "/6/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "longtermfood", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/walnutnutribar.json",
+        "path": "/7/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "longtermfood", "invert": true}],
+        "side": "Server"
+    }
+]

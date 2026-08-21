@@ -1,7 +1,7 @@
 [
     {
         "op": "addeach",
-        "file": "game:recipes/cooking/augratin.json",
+        "file": "expandedfoods:recipes/cooking/augratin.json",
         "path": "/ingredients/11/validStacks/-",
         "value": [
             {"type": "item", "code": "mightywalnut:walnut-shelled",  "shapeElement": "bowl/nuts 1/*", "textureMapping": ["acorns", "group15"]},
@@ -12,7 +12,7 @@
     },
     {
         "op": "addeach",
-        "file": "game:recipes/cooking/augratin.json",
+        "file": "expandedfoods:recipes/cooking/augratin.json",
         "path": "/ingredients/12/validStacks/-",
         "value": [
             {"type": "item", "code": "mightywalnut:walnut-shelled",  "shapeElement": "bowl/nuts 2/*", "textureMapping": ["acorns", "peanut"]},
